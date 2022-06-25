@@ -43,16 +43,16 @@ function App() {
         <img src="/invite.jpeg" alt="invite" />
       </article>
       <aside>
-        <h1>Aniversário do Endry</h1>
+        <h1>Aniversário do Gabriel</h1>
         <div className="aside-content">
           <h2 className="confirm">Confirme sua presença</h2>
           <div className="details">
             <FiPhone />
             <div>
               <p>
-                (+351) 960 057 264 - Chamada ou WhatsApp.
+                (19) 98243-7683 - Chamada ou WhatsApp.
                 <br />
-                Prazo para confirmações até <strong>10.07.2022</strong>.
+                Prazo para confirmações até <strong>14.07.2022</strong>.
               </p>
             </div>
           </div>
@@ -63,18 +63,17 @@ function App() {
           <div className="details">
             <FiCalendar />
             <div>
-              <p>Dia 17.07.2022, a partir de 14:00 horas.</p>
+              <p>Dia 23.07.2022, a partir de 16:00 horas.</p>
               <div className="atcb">
                 {"{"}
-                "name":"ANIVERSÁRIO DO ENDRY", "description":"Estou muito
-                ansioso por contar contigo no meu aniversário. A sua presença é
-                suficiente para mim, mas caso queria me dar um presente este
-                pode ser em dinheiro. Convite:→
-                [url]https://github.com/jekuer/add-to-calendar-button[/url]",
-                "startDate":"2022-07-17T14:00", "endDate":"2022-07-17T18:00",
-                "location":"Quinta Pedagógica Inclusiva - CASCI, R. do Casci
-                nº36B, 3830-355, Portugal", "label":"Adicionar ao calendário",
-                "options":[ "Apple", "Google", "Outlook.com" ],
+                "name":"ANIVERSÁRIO DO GABRIEL", "description":"Estou muito
+                ansioso por contar contigo no meu aniversário. Pedimos por
+                gentileza que traga a sua bebida (suco-cerveja-refrigerante).
+                Convite:→ [url]https://gabriel-convite.vercel.app/[/url]",
+                "startDate":"2022-07-23T16:00", "endDate":"2022-07-23T20:00",
+                "location":"Espaço Espinosa, R. Nair Bertolotti Stocco - Água
+                Branca, Piracicaba - SP, 13426-072, Brasil", "label":"Adicionar
+                ao calendário", "options":[ "Apple", "Google", "Outlook.com" ],
                 "timeZone":"Europe/Berlin", "inline":true, "trigger":"click"
                 {"}"}
               </div>
@@ -86,9 +85,12 @@ function App() {
           <div className="details">
             <FiMapPin />
             <div>
-              <h3>Quinta Pedagógica Inclusiva - CASCI</h3>
-              <p>R. do Casci nº36B, 3830-355, Portugal.</p>
-              <a target="_blank" href="https://goo.gl/maps/imhRaW48FJaqLUbg7">
+              <h3>Espaço Espinosa</h3>
+              <p className="address">
+                R. Nair Bertolotti Stocco - Água Branca, Piracicaba - SP,
+                13426-072, Brasil.
+              </p>
+              <a target="_blank" href="https://goo.gl/maps/yqH5eKDjJgsuDjJy6">
                 Ver no mapa do google
               </a>
             </div>
