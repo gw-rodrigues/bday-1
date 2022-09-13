@@ -42,16 +42,16 @@ function App() {
         <img src="/invite.jpeg" alt="invite" />
       </article>
       <aside>
-        <h1>Aniversário do Gabriel</h1>
+        <h1>Aniversário do Esther Emanuelly</h1>
         <div className="aside-content">
           <h2 className="confirm">Confirme sua presença</h2>
           <div className="details">
             <FiPhone />
             <div>
               <p>
-                (19) 98243-7683 - Chamada ou WhatsApp.
+                (19) 98825-5988 / 98825-6841 - Chamada ou WhatsApp.
                 <br />
-                Prazo para confirmações até <strong>14.07.2022</strong>.
+                Prazo para confirmações até <strong>05.10.2022</strong>.
               </p>
             </div>
           </div>
@@ -62,17 +62,17 @@ function App() {
           <div className="details">
             <FiCalendar />
             <div>
-              <p>Dia 23.07.2022, a partir de 16:00 horas.</p>
+              <p>Dia 09.10.2022, a partir de 11:00 horas.</p>
               <div className="atcb">
                 {"{"}
-                "name":"ANIVERSÁRIO DO GABRIEL", "description":"Estou muito
-                ansioso por contar contigo no meu aniversário. Pedimos por
-                gentileza que traga a sua bebida (suco-cerveja-refrigerante).
-                Convite:→ [url]https://gabriel-convite.vercel.app/[/url]",
-                "startDate":"2022-07-23T16:00", "endDate":"2022-07-23T20:00",
-                "location":"Espaço Espinosa, R. Nair Bertolotti Stocco - Água
-                Branca, Piracicaba - SP, 13426-072, Brasil", "label":"Adicionar
-                ao calendário", "options":[ "Apple", "Google", "Outlook.com" ],
+                "name":"ANIVERSÁRIO DO ESTHER EMANUELLY", "description":"Estou
+                muito ansioso por contar contigo no meu aniversário. Pedimos por
+                gentileza que traga seu kit churrasco. Convite:→
+                [url]https://gabriel-convite.vercel.app/[/url]",
+                "startDate":"2022-10-09T11:00", "endDate":"2022-10-11T20:00",
+                "location":"Chácara dos Universitários, Rua 11, glebas 32,
+                chácara 75, Bairro Taquaral", "label":"Adicionar ao calendário",
+                "options":[ "Apple", "Google", "Outlook.com" ],
                 "timeZone":"Europe/Berlin", "inline":true, "trigger":"click"
                 {"}"}
               </div>
@@ -84,12 +84,11 @@ function App() {
           <div className="details">
             <FiMapPin />
             <div>
-              <h3>Espaço Espinosa</h3>
+              <h3>Chácara dos Universitários</h3>
               <p className="address">
-                R. Nair Bertolotti Stocco - Água Branca, Piracicaba - SP,
-                13426-072, Brasil.
+                Rua 11, glebas 32, chácara 75, Bairro Taquaral
               </p>
-              <a target="_blank" href="https://goo.gl/maps/yqH5eKDjJgsuDjJy6">
+              <a target="_blank" href="https://goo.gl/maps/yuH3b5ztoLAweRwT9">
                 Ver no mapa do google
               </a>
             </div>

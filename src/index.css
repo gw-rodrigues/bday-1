@@ -17,8 +17,8 @@ body {
   width: 100vw;
   height: 100vh;
   min-height: 100vh;
-  background-color: rgb(165, 208, 128);
-  background: linear-gradient(180deg, rgb(245, 255, 236) 0%, rgba(165, 208, 128) 100%);
+  background-color: rgb(249, 196, 230);
+  background: linear-gradient(180deg, rgb(249, 229, 243) 0%, rgb(255, 218, 241) 100%);
   background-attachment: fixed;
   overflow-x: hidden;
 }
